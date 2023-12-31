@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Print the usernames from /etc/passwd
+awk -F: '{print $1}' /etc/passwd
